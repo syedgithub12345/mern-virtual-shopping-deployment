@@ -3,7 +3,7 @@ const paypal = require("paypal-rest-sdk");
 paypal.configure({
   mode: "sandbox",
   client_id: process.env.PAYPAL_CLIENT_ID,
-  client_secret: process.env.PAYPAL_CLIENT_SECRET,
+  client_secret: process.env.PAYPAL_SECRET_KEY,
   // client_id:"AU-swZwKGiAya_xjKFhb_RdC9H3TwtbMwABelLfEkrM6XVJrJFG5yaHCT1F4umXxoPiViW3-WePAw8XM",
   // client_secret:"ED5z-bZ70epDcFV4elRr3tm41jwhzWaIU4SwKrOp4wv_4CSbfo4OftzXBRoJj99XYftlwpviZdK5f9pI",
 
